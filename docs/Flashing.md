@@ -42,6 +42,7 @@ The CC2531 USB stick needs to be flashed with a custom firmware. The following i
    ```bash
    git clone https://github.com/dashesy/cc-tool.git
    cd cc-tool
+   ./bootstrap
    ./configure
    make
    ```
